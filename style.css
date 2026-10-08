@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.painel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.cartao {
+  background: #111111;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.cartao h2 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.caixa {
+  position: relative;
+  height: 320px;
+}

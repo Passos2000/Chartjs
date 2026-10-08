@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard de Temperatura e Umidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dashboard de Temperatura e Umidade</h1>
+
+  <main class="painel">
+    <section class="cartao">
+      <h2>Variação ao longo do dia</h2>
+      <div class="caixa"><canvas id="graficoLinhas"></canvas></div>
+    </section>
+    <section class="cartao">
+      <h2>Médias mensais</h2>
+      <div class="caixa"><canvas id="graficoBarras"></canvas></div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
