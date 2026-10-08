@@ -36,4 +36,4 @@ Painel com dois gráficos feitos com **Chart.js**, em tema escuro:
 
 ## Autor
 
-Feito por SEU_NOME.
+Feito por Victor dos Passos.
